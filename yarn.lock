@@ -1122,11 +1122,6 @@
   dependencies:
     glob "7.1.7"
 
-"@next/font@13.1.1":
-  version "13.1.1"
-  resolved "https://registry.yarnpkg.com/@next/font/-/font-13.1.1.tgz#a0cb38bf8a181560f195d82f13f9f92fd0b0dd20"
-  integrity sha512-amygRorS05hYK1/XQRZo5qBl7l2fpHnezeKU/cNveWU5QJg+sg8gMGkUXHtvesNKpiKIJshBRH1TzvO+2sKpvQ==
-
 "@next/swc-android-arm-eabi@13.0.0":
   version "13.0.0"
   resolved "https://registry.yarnpkg.com/@next/swc-android-arm-eabi/-/swc-android-arm-eabi-13.0.0.tgz#15cd89d19d3c00d123fdfe367bab38c362f6c515"
@@ -1231,6 +1226,23 @@
     picocolors "^1.0.0"
     tiny-glob "^0.2.9"
     tslib "^2.4.0"
+
+"@prisma/client@4.10.0":
+  version "4.10.0"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-4.10.0.tgz#7b7cec082b7cb8885effff48ff4fff65e52dee11"
+  integrity sha512-sBmYb1S6SMKFIESaLMfKqWSalv3pH73cMCsFt9HslJvYjIIcKQCA6PDL2O4SZGWvc4JBef9cg5Gd7d9x3AtKjw==
+  dependencies:
+    "@prisma/engines-version" "4.10.0-84.ca7fcef713137fa11029d519a9780db130cca91d"
+
+"@prisma/engines-version@4.10.0-84.ca7fcef713137fa11029d519a9780db130cca91d":
+  version "4.10.0-84.ca7fcef713137fa11029d519a9780db130cca91d"
+  resolved "https://registry.yarnpkg.com/@prisma/engines-version/-/engines-version-4.10.0-84.ca7fcef713137fa11029d519a9780db130cca91d.tgz#db646ab604b5dc3529080b8fe900240c73e3a71a"
+  integrity sha512-UVpmVlvSaGfY4ue+hh8CTkIesbuXCFUfrr8zk//+u85WwkKfWMtt6nLB2tNSzR1YO8eAA8+HqNf8LM7mnXIq5w==
+
+"@prisma/engines@4.10.0":
+  version "4.10.0"
+  resolved "https://registry.yarnpkg.com/@prisma/engines/-/engines-4.10.0.tgz#f9d37cba42762fe502e982873c31cfa6961eab64"
+  integrity sha512-ZPPo7q+nQZdTlPFedS7mFXPE3oZ2kWtTh3GO4sku0XQ8ikLqEyinuTPJbQCw/8qel2xglIEQicsK6yI4Jgh20A==
 
 "@react-native-community/eslint-config@^3.0.1":
   version "3.2.0"
@@ -6318,6 +6330,13 @@ pretty-format@^29.0.0, pretty-format@^29.3.1:
     "@jest/schemas" "^29.0.0"
     ansi-styles "^5.0.0"
     react-is "^18.0.0"
+
+prisma@^4.10.0:
+  version "4.10.0"
+  resolved "https://registry.yarnpkg.com/prisma/-/prisma-4.10.0.tgz#c929229558bc94a916b5fc90520acda7375aa6ee"
+  integrity sha512-xUHcF3Glc8QGgW8x0rfPITvyyTo04fskUdG7pI4kQbvDX/rhzDP4046x/FvazYqYHXMLR5/KTIi2p2Gth5vKOQ==
+  dependencies:
+    "@prisma/engines" "4.10.0"
 
 prompts@^2.0.1:
   version "2.4.2"
